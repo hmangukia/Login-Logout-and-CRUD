@@ -1,0 +1,8 @@
+I have used Mysql and the name of database is hm. The name of the table is login.
+
+create database hm;
+use hm;
+create table login(uname varchar(20), pwd varchar(20), mailid varchar(20), age int);
+insert into login values("het","het@123","hmangukia9@gmail.com",22);
+insert into login values("abc","abc@123","abc@gmail.com",22);
+insert into login values("xyz","xyz@123","xyz@gmail.com",22);
